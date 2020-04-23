@@ -1,0 +1,28 @@
+.leaderBoardSection {
+  box-sizing: border-box;
+  width: 570px;
+  height: 100%;
+  padding: 130px 85px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #8b8b8b;
+  margin-top: 0;
+}
+
+.winnerInfo {
+  background-color: #cfd8dc;
+  min-width: 370px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #9fa8ab;
+  margin-top: 3px;
+  padding: 0 12px 0 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

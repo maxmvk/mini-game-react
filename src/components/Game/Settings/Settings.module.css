@@ -1,0 +1,130 @@
+.settings {
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.settings button {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px 24px 12px 20px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  will-change: box-shadow;
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),
+              background-color .2s cubic-bezier(.4,0,.2,1),
+              color .2s cubic-bezier(.4,0,.2,1);
+}
+
+.btnPick {
+  min-width: 205px;
+  background-color: #cfd8dc;
+  color: #7d8f95;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button div {
+  font-size: 12px;
+  color: #8d8d8d;
+  margin-top: 4px;
+}
+
+.btnPick:hover {
+  background-color: #dfe6e9;
+}
+
+.btnPick:disabled {
+  background-color: #dfe6e9;
+  color: #adbfc5;
+}
+
+.btnPick:disabled div{
+  color: transparent;
+}
+
+.gameModes {
+  position: absolute;
+  z-index: 2;
+}
+
+.gameModes div {
+  width: 205px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #7d8f95;
+  font-size: 18px;
+  padding: 14px 24px 14px 20px;
+  background-color: #cfd8dc;
+  margin: auto;
+  display: flex;
+  will-change: box-shadow;
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),
+              background-color .2s cubic-bezier(.4,0,.2,1),
+              color .2s cubic-bezier(.4,0,.2,1);
+  cursor: pointer;
+}
+
+.gameModes div:hover {
+  color: #617177;
+  background-color: #b7c1c5;
+}
+
+.gameModes div:first-child {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.gameModes div:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.btnPlay {
+  min-width: 150px;
+  background-color: #7b8d93;
+  text-transform: uppercase;
+  color: #fcfdfd;
+  font-weight: 600;
+}
+
+.btnPlay:hover {
+  background-color: #96a9af;
+}
+
+.btnPlay:disabled {
+  background-color: #afc1c7;
+  color: #e9ebeb;
+}
+
+.settings input {
+  width: 205px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 2px;
+  color: #7d8f95;
+  font-size: 18px;
+  background-color: #f3f3f3;
+  outline: none;
+  margin-left: 10px;
+  margin-right: 14px;
+}
+
+input:focus {
+  background-color: #eaecee;
+  color: #6b7c81;
+}
+
+input:disabled {
+  color: #c4d3d8;
+}
+
+::placeholder {
+  color: #7d8f95;
+}

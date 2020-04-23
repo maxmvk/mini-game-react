@@ -1,0 +1,55 @@
+.gameSection {
+  box-sizing: border-box;
+  width: 710px;
+  padding: 130px 20px 130px 10px;
+  border-right: 2px solid #eeeef0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  height: 23px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #8c8c8c;
+  margin: 50px auto 30px;
+}
+
+.gameField {
+  border: 1px solid #e8e8eb;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.regularSquare {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8eb;
+}
+
+.highlightedSquare {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  background-color: rgb(47, 213, 255);
+  border: 1px solid rgb(47, 213, 255);
+}
+
+.selectedSquare {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  background-color: rgb(47, 255, 116);
+  border: 1px solid rgb(47, 255, 116);
+}
+
+.missedSquare {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  background-color: rgb(255, 68, 68);
+  border: 1px solid rgb(255, 68, 68);
+}
